@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page - RedSocial</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RedSocial - Bienvenido</title>
+  <link rel="stylesheet" href="/css/index.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  />
 </head>
 <body>
-    
+
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        RedSocial
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="login.html">Iniciar Sesión</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container mt-4">
+    <section class="hero-section">
+      <h1>Descubre, Comparte y Conéctate</h1>
+      <p>
+        Únete a RedSocial para compartir tus fotos, videos y momentos con amigos y
+        seguidores alrededor del mundo.
+      </p>
+      <a href="login.html" class="btn btn-login">
+        Iniciar Sesión
+      </a>
+    </section>
+
+    <section class="publicaciones-section text-center">
+      <h2>Publicaciones Destacadas</h2>
+      <p>Descubre el contenido más popular de nuestra comunidad.</p>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card post-card">
+            <img src="https://picsum.photos/600/400" class="card-img-top" alt="Publicación1">
+            <div class="card-body">
+              <h5 class="card-title">charlicxx</h5>
+              <p class="card-text mb-1">
+                <span class="like-count">1,650 Me gusta</span>
+              </p>
+              <p class="card-text">
+                ¡Fiesta increíble anoche!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card post-card">
+            <img src="https://picsum.photos/601/400" class="card-img-top" alt="Publicación2">
+            <div class="card-body">
+              <h5 class="card-title">marina_photo</h5>
+              <p class="card-text mb-1">
+                <span class="like-count">2,350 Me gusta</span>
+              </p>
+              <p class="card-text">
+                Paisajes espectaculares en mi viaje.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card post-card">
+            <img src="https://picsum.photos/602/400" class="card-img-top" alt="Publicación3">
+            <div class="card-body">
+              <h5 class="card-title">artlover23</h5>
+              <p class="card-text mb-1">
+                <span class="like-count">890 Me gusta</span>
+              </p>
+              <p class="card-text">
+                Mi nueva obra de arte. ¿Qué opinan?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  ></script>
 </body>
 </html>
