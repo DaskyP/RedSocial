@@ -47,6 +47,8 @@ $(document).ready(function() {
         }
         
         alert("Registro exitoso");
+        window.location.href = "timeline.html"; 
+
     });
 });
 
